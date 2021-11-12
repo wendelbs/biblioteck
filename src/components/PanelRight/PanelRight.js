@@ -1,20 +1,21 @@
 import React from 'react-dom';
-
+import './style.css'
 
 export default function PanelRight() {
     
     return (
-        <div >
-            <h1>
+        <div className="rightBar">
+            
+            <h1 className="nameApp">
             BiblioTeck
             </h1> 
-            <form>
-                <label>Usu&aacute;rio: </label>
-                <input type="text" id="user"/> 
+            <form >
+                <label id="cadUser">Usu&aacute;rio: </label>
+                <input t ype="text" id="user"/> 
                 < br />
                 <label>Senha: </label>
-                <input type="text" id="password"/>
-                <input type="submit" />
+                <input  id="password"/>
+                <input type="submit"/>
             </form> 
         </div>
     )

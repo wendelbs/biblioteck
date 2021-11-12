@@ -1,4 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
 .leftBar {
     text-align: right;
-    
+    width: 50%;
+    height: 610px;
+    padding-right: 10px;
+    background-image: url("../../images/pilha_livros.jpg");
+    background-size: 11250px;
+    background-position:0 0 0 -10px;
+    background-repeat: no-repeat;
+}
+
+.leftBar h2 {
+    font-family: 'Roboto: wght@300', sans-serif;
+    font-size: 25pt;
+    padding-left:100px ;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13pt;
+    padding-left: 180px;
 }
