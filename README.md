@@ -1,10 +1,9 @@
 # App referente ao Projeto Integrador
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+Este sistema foi criado para conclusão do projeto da faculdade, onde foi feita tela de login e cadastro de usuário.
 ## Available Scripts
 
-In the project directory, you can run:
+Para rodar o projeto
 
 ### `npm start`
 
